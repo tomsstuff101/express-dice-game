@@ -1,0 +1,134 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    /* background: url() */
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.numOfPlayers{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#select2Player{
+    width: 2em;
+    height: 2em;
+}
+
+.numOfPlayers h4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 20px;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.thePlayer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.player{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    height: 50vh;
+    align-items: center;
+    margin-top: 5vh;
+    /* background-color: aquamarine; */
+}
+
+
+.playerName{
+    margin:0;
+}
+
+.hide{
+    display: none;
+}
+
+
+#genMessage{
+    text-align: center;
+}
+
+.playerMessage{
+    margin: 0;
+    padding: 0;
+}
+
+.gameWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.score{
+    margin-top: 3vh;
+    font-size: 3em;
+}
+
+.contolWrapper{
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    height: 5vh;
+    width: 10vw;
+    margin-top:5vh;
+}
+
+
+.newGame{
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    height: 3vh;
+    width: 10vw;
+    /* margin-top:5vh; */
+    font-size: 16px;
+}
+
+.newGame button{
+    font-size: 20px;
+    color: blue;
+}
+
+.diceWrapper{
+    margin-top:20px;
+}
+
+
+
+.roll{
+    width: 100%;
+    /* background-color: beige; */
+    font-size: 1.2em;
+    color: blue;
+}
+
+
+.dice{
+    border: 5px solid black;
+}
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dice Game</h1>
+        <div class="numOfPlayers">
+            <!-- <h4>2 Player Game</h4> -->
+            <form>
+                <label for="players">2 Player Game</label>
+                <input type="checkbox" name="players" id="select2Player">
+            </form>
+        </div>
+        <div class="newGame">
+                <button id="newGame">New Game</button>
+            </div>
+    </header>
+
+    <div class="gameWrapper">
+    <p id="genMessage">Begin game when roll is clicked</p>
+        <div class="thePlayer">
+            <div id="player1" class="player">
+                <h2 id="playerName1" class="playerName">Bob Hoskins</h2>
+                <h2 id="playerMessage1" class="playerMessage"></h2>
+                <div class="diceWrapper">
+                    <img id="player1DiceImage" src="./img/dice1.png" alt="dice" id="dice1" class="dice">
+                </div>
+                <div id="score1" class="score">?</div>
+                <div class="contolWrapper">
+                    <button id="roleDice1" class="roll">Roll</button>
+                </div>
+            </div>
+            <div id="player2" class="player">
+                    <h2 id="playerName2" class="playerName">Mary Popins</h2>
+                    <h2 id="playerMessage2" class="playerMessage"></h2>
+                    <div class="diceWrapper">
+                        <img id="player2DiceImage" src="./img/dice1.png" alt="dice" id="dice2" class="dice">
+                    </div>
+                    <div id="score2" class="score">?</div>
+                    <div class="contolWrapper">
+                        <button id="roleDice2" class="roll">Roll</button>
+                    </div>
+            </div>
+        </div>
+ 
+    </div>
+   
+
+    <script src="./script.js"></script>
+</body>
+</html>

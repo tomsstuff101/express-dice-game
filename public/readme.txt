@@ -1,0 +1,1 @@
+All stuff to be served to the user is in the public
