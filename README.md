@@ -4,11 +4,7 @@ Using Node.js and Express.js to serve a simple dice game page on localhost://300
 
 This is the first React app created by the author, Tom Ormiston
 
-This has been [deployed on GitHub](https://tomsstuff101.github.io/react-calc/)
-
-<a href="https://tomsstuff101.github.io/react-calc/">
-<img src="https://github.com/tomsstuff101/react-calc/blob/master/README-Images/React%20Calc.png" >
-</a>
+<img src="https://github.com/tomsstuff101/express-dice-game/blob/master/README-image/dice%20Express.png" width="1000px" hight="auto">
 
 
 To install locally from this repo ensure Node.js is installed; the version I used was
@@ -16,10 +12,11 @@ To install locally from this repo ensure Node.js is installed; the version I use
 $ node --version
 v10.6.3
 
-
 to start
 
 $ node app.js
+
+and go to [URL localhost:3000](http://localhost:3000)
 
 
 This is a basic explanation using one example
