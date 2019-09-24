@@ -10,6 +10,7 @@ This is the first React app created by the author, Tom Ormiston
 To install locally from this repo ensure Node.js is installed; the version I used was
 
 $ node --version
+
 v10.6.3
 
 to start
