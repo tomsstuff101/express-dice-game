@@ -1,4 +1,4 @@
-# Express Dice Game\
+# Express Dice Game
 
 Using Node.js and Express.js to serve a simple dice game page on localhost://3000
 
